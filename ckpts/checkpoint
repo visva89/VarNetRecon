@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/visva/tmp/model.ckpt"
+all_model_checkpoint_paths: "/home/visva/tmp/model.ckpt"
