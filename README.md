@@ -10,7 +10,7 @@ MRI data used to train the network is introduced and described by [Johannes Schm
   * 30 filters per layer
   * 35 knots to parametrize activations
   * cubic interpolation for activations
-* Run `example.sh` for training
+* Run `example.sh` for training, or use saved parameters `ckpts/model.ckpt` and run `recon_model_300_066.py`
 * Run matlab script `report_imgs.m` for illustrations of reconstruction and learned parameters
 
 ## Demo
