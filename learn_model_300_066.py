@@ -73,6 +73,12 @@ feed_test = {ph_kspc : test_kspc, ph_mask : test_mask, ph_img_out: test_imgs}
 
 saver = tf.train.Saver()
 config = tf.ConfigProto()
+
+#os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+config = tf.ConfigProto()
+#config.intra_op_parallelism_threads = 44
+#config.inter_op_parallelism_threads = 44
+
 sess = tf.InteractiveSession(config=config)
 sess.run(tf.global_variables_initializer())
 sess.run(projection_ops) 
