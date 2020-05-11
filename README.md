@@ -3,7 +3,7 @@ This is a generic implementation of Variational Network (loop unrolling) for MR 
 MRI data used to train the network is introduced and described by [Johannes Schmidt and Sebastian Kozerke](http://dev.ismrm.org/2017/3991.html).
 
 ## Running the code 
-* Download 2D short axis cardiac MRI dataset https://polybox.ethz.ch/index.php/s/E9FgAzi21iVJiF5
+* Download 2D short axis cardiac MRI dataset https://polybox.ethz.ch/index.php/s/pYQc9w3M5MgRd4X
 * Inspect configuration of the network in `recon_model_300_066.py`. We used:
   * 10 layers
   * 7x7 filters
